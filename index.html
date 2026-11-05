@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="ta">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>TNPSC Group 4 Mock Test</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+Tamil:wght@400;500;700&family=Noto+Serif+Tamil:wght@600;700&family=IBM+Plex+Mono:wght@500;600&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+  <header class="top" id="top">
+    <div class="top-row">
+      <div>
+        <h1>TNPSC Group 4 Daily Mock Test</h1>
+        <div class="sub" id="testno">Day 1 · Test No. 1 · 200 Questions · 300 Marks</div>
+      </div>
+      <div class="timer" id="timer" aria-live="off">03:00:00</div>
+    </div>
+    <div class="counters" id="counters" hidden>
+      <span>Total: <b>200</b></span>
+      <span>Answered: <b id="cAns">0</b></span>
+      <span>Unanswered: <b id="cUn">200</b></span>
+      <span>Correct: <b id="cOk">0</b></span>
+      <span>Wrong: <b id="cNo">0</b></span>
+      <span>Progress: <b id="cPct">0%</b></span>
+    </div>
+    <div class="bar" id="barWrap" hidden><i id="bar"></i></div>
+  </header>
+  <main id="main"></main>
+</div>
+
+
+<script src="data/day1.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
